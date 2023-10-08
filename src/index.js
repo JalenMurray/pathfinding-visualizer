@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GridProvider } from './context/grid';
 
-const root = ReactDOM.createRoot(document.getElementById('demo'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <GridProvider>
